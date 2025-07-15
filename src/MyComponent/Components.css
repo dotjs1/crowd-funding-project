@@ -1,0 +1,277 @@
+*{
+    margin: 0;
+    padding: 0;
+    background: white;
+}
+/*  */
+.navbar{
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+@media screen and (max-width: 600px){
+.contacts{
+  visibility: hidden;
+  padding: 1px;
+}
+}
+/* Home_crowfund */
+.card-container {
+  display: flex;
+  gap: 24px;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 40px auto;
+  padding: 0 16px;
+}
+
+.custom-card {
+  flex: 1 1 300px;
+  max-width: 420px;
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.05);
+  padding: 24px;
+  transition: 0.3s ease;
+}
+
+.custom-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.1);
+}
+
+.card-tag {
+  font-size: 0.9rem;
+  font-weight: 600;
+  padding: 6px 12px;
+  border-radius: 6px;
+  display: inline-block;
+  margin-bottom: 12px;
+}
+
+.crowdfunding {
+  background-color: #e6f4ea;
+  color: #2e7d32;
+}
+
+.charity {
+  background-color: #e3f2fd;
+  color: #0d47a1;
+}
+
+.card-title {
+  font-size: 1.4rem;
+  margin: 10px 0;
+  color: #222;
+}
+
+.card-text {
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.card-buttons {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.buttons {
+  padding: 10px 16px;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  border: none;
+  font-size: 0.95rem;
+  transition: 0.2s ease-in-out;
+}
+
+.buttons.primary {
+  background-color: #2e7d32;
+  color: white;
+}
+
+.buttons.outline {
+  border: 2px solid #2e7d32;
+  color: #2e7d32;
+  background-color: transparent;
+}
+.buttons.outline:hover{
+  background-color: #2e7d32;
+  color: white;
+}
+.buttons.blue {
+  background-color: #0d47a1;
+  color: white;
+}
+.buttons.outline-blue:hover {
+  background-color: #0d47a1;
+  color: white;
+}
+.buttons.outline-blue {
+  border: 2px solid #0d47a1;
+  color: #0d47a1;
+  background-color: transparent;
+}
+
+/* Main  div css */
+.Mainpage {
+  width: 100%;
+  padding: 30px;
+  background: rgb(234, 227, 227);
+}
+@media screen and (max-width:675px){
+  .Mainpage{
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media screen and (max-width:400px){
+  .name{
+    display: flex;
+    flex-direction: column;
+  }
+}
+.contain {
+  padding: 10px;
+  text-align: left;
+}
+
+.p1 {
+  font-size: 30px;
+  font-family: sans-serif;
+}
+
+.main_image {
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: 10px;
+}
+.name h5:hover{
+  scale: 1.1;
+}
+.btns {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.btns button:hover{
+ transform: translateY(-4px);
+}
+/* project.js ----csss */
+.projects_div {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.project_data img {
+  object-fit: cover;
+  height: 180px;
+  width: 100%;
+}
+.funding_data h5, .funding_data h6 {
+  margin-bottom: 0.5rem;
+}
+@media (max-width: 768px) {
+  .filtersbtns {
+    justify-content: center;
+  }
+}
+.search{
+    min-width: 60%;
+    padding: 5px;
+    display: flex;
+    justify-content: left;
+    gap: 10px;
+    border-radius: 20px;
+    box-shadow: 5px,5px,5px,5px rgb(128, 128, 128);
+    border: 1px solid green;
+}
+#Categories{
+      border: none;
+      color: green;
+}
+#Categories:focus{
+    outline: none;
+    border: none;  
+}
+.searchinput{
+    width: 100%;
+    border: none;
+    font-size: larger;
+}
+.searchinput:focus{
+    outline: none;
+    border: none;
+}
+.funding_data{
+    text-align: left;
+    padding: 10px;
+   width: auto;
+}
+
+/* filterbtn.css */
+.filterbtn{
+    display: flex;
+    justify-content: space-between;
+}
+.filtersbtns{
+    display: flex;
+    gap: 20px;
+}
+#Categories_filterbtn{
+    border-radius: 10px;
+}
+/* footer.css */
+
+ .footer-btn {
+  border: 1px solid #0d6efd;
+  color: #0d6efd;
+  text-decoration: none;
+  padding: 6px 12px;
+  border-radius: 6px;
+  transition: all 0.3s ease;
+  display: inline-block;
+}
+.collapse_div{
+ border: 1px solid black;
+  padding: 5px;
+    border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+.footer-btn:hover {
+  color: #0dcaf0;
+  text-decoration: underline;
+}
+.collapse_div_mobile{
+   border-bottom: 1px solid black;
+   border-left: 1px solid black;
+   border-right: 1px solid black;
+  padding: 5px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.footer-btn:hover {
+  background-color: #0d6efd;
+  color: white !important;
+  text-decoration: none;
+}
+.footer-btn {
+  border: 1px solid #0d6efd;
+  color: #0d6efd;
+  text-decoration: none;
+  padding: 6px 12px;
+  border-radius: 6px;
+  transition: all 0.3s ease;
+  display: inline-block;
+}
+
+.footer-btn:hover {
+  background-color: #0d6efd;
+  color: white !important;
+  text-decoration: none;
+}
