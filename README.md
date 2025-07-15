@@ -84,6 +84,6 @@ Contributions are welcome!
 ## Available Scripts
 In the project directory, you can run:
 
-npm start       # Runs the app in development mode
-npm run build   # Builds the app for production
-npm test        # Launches the test runner
+ - npm start       # Runs the app in development mode
+ - npm run build   # Builds the app for production
+ - npm test        # Launches the test runner
